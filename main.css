@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1e1e1e;
+    display: flex;
+    font-family: 'Inder';
+  }
+  .sidebar {
+    background-color: #5f4e4e;
+    width: 352px;
+    height: auto;
+    padding: 20px;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-family: "Iceberg";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 24px;
+    height: 70vh;
+  }
+  li {
+    margin-bottom: 10px;
+    font-family: "Inder";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: justify;
+    text-decoration-line: underline;
+
+    color: #ffffff;
+  }
+  .button{
+    display: inline-block;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+  }
+  .active{
+    border: 5px solid #FFFFFF;
+  }
+  #redBtn{
+    background-color: #7E6784;
+  }
+  #greenBtn{
+    background-color: #739D6C;
+  }
+  #blueBtn{
+    background-color: #647BB5;
+  }
+  #yellowBtn{
+    background: #B1AC7A;
+  }
+  .post{
+    background: #CB9191;
+    width: 1029px;
+    height: 381px;
+    margin-left: 93px;
+    margin-top: 61px;
+  }
+  .title{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 18px;
+    color: #000000;
+  }
+  .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: justify;
+
+    color: #000000;
+    margin: 0 18px;
+  }
+  .tags{
+    display: flex;
+    flex-direction: row;
+  }
+  .tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDD7D7;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+    border-radius: 50px;
+    width: 151px;
+    height: 48px;
+    margin: 0 18px;
+}
+span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: justify;
+
+  color: #000000;
+}
+hr{
+  background-color: black;
+}

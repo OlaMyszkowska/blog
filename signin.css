@@ -1,0 +1,52 @@
+body {
+    display: flex;
+  }
+  .signin {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 248px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #cb9191;
+    width: 722px;
+    height: 264px;
+  }
+  h2 {
+    font-family: "Inder";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: justify;
+    color: #ffffff;
+  }
+  .form label {
+    margin-bottom: 10px;
+  }
+  .form input {
+    margin-right: 10px;
+    width: 526px;
+    height: 48px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+  }
+  .form button {
+    color: #fff;
+    width: 526px;
+    height: 48px;
+    background: #ff0000;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin-left: 40px;
+  }
+  .material-symbols-outlined {
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    right: 50px;
+  }

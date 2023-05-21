@@ -1,0 +1,44 @@
+.title{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+    margin-left: 187px;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 187px;
+    width: 842px;
+  }
+  .table,
+  .row {
+    border: 1px solid white;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+  .row > div {
+    flex-basis: 33.33%;
+  }
+
+  .row > div:last-child {
+    flex-basis: 20%;
+  }
+  .show-button{
+    background: transparent;
+    color: white;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+  }
+
